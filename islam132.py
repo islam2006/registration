@@ -28,7 +28,6 @@ help_menu.add_command(label = "About")
 menu.add_cascade(label = "Pile",menu = file_menu)
 menu.add_cascade(label = "Help",menu = help_menu)
 text = Text(root)
-text.pack(expand = YES,fill = BOTH)
 
 
 
